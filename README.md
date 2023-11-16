@@ -13,7 +13,7 @@ I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer w
 - **Web Data Extraction**: Proficient in extracting, transforming, and loading web data from sources like Google Analytics, Google Ads, and Facebook Ads using APIs, web scraping, and other methods.
 - **Optimization & Monitoring**: Adept at optimizing and monitoring the performance, reliability, and quality of data lakehouse architecture and solutions.
 
-## Projects
+## Experience
 
 ### Take-home haemodialysis equipment Dashboard
 
@@ -35,8 +35,9 @@ I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer w
   - Investigated and implemented an optimized solution for handling XML data, reducing pipeline runtime by 56%.
   - Led SCRUM calls, maintaining a well-organized Jira and Azure DevOps Agile board.
  
-### Academic Experience | University of Arizona
+## Academic Experience | University of Arizona
 
+### Metadata Catalog Information System
 - **Role**: Eller Business Consultant
 - **Company**: Blue Cross Blue Shield of Arizona, United States
 - **Highlights**:
@@ -44,6 +45,7 @@ I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer w
   - Coordinated 1307 development hours via Azure DevOps SCRUM, ensuring on-time project completion.
   - Enhanced efficiency by implementing indexing, functions, and SQL tactics, reducing query response time by 40%.
 
+### MIS 304: Using and Managing Information Systems and MIS 587: Business Intelligence
 - **Role**: Graduate Teaching Assistant
 - **Company**: University of Arizona, United States
 - **Highlights**:
@@ -52,6 +54,7 @@ I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer w
   - Developed exercises to teach students the art of visual storytelling through Tableau and Power BI, emphasizing data visualization best practices and dashboard creation.
   - Created hands-on lab sessions on Python programming modules for data analysis, automation, and integration within the Business Intelligence context.
 
+### MIS 587: Big Data Technologies
 - **Role**: Data Engineer
 - **Company**: University of Arizona, United States
 - **Highlights**:
