@@ -1,6 +1,6 @@
 # Balasubramanian Viswanathan
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/balavis/) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://yourportfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/balavis/) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://balavis.mydurable.com/)
 
 ## Introduction 
 
@@ -88,4 +88,4 @@ I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer w
 
 I'm excited about the possibility of bringing my skills and passion to your team. Let's connect and explore how I can contribute to your next data-driven success!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/balavis/) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://yourportfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/balavis/) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://balavis.mydurable.com/)
