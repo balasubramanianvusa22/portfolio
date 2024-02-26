@@ -4,12 +4,12 @@
 
 ## Introduction 
 
-I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer with over 4 years of hands-on experience in AWS and Azure Cloud Data Engineering Tech Stack. I specialize in designing and deploying robust ETL processes and scalable data pipelines.
+I'm Balasubramanian Viswanathan, an experienced results-driven Data Engineer with over 4 years of expertise in ETL, Data Warehousing, Database Management, and Business Intelligence solutions, specializing in  AWS and Azure Cloud Data Engineering Tech Stack. I have a proven ability in proactive incident resolution, in reducing costs and improving efficiency, scalability, and performance. I am currently seeking an opportunity to leverage my skills in building robust data solutions and fostering strong relationships.
 
 ## Expertise
 
 - **Data Engineering**: Proven experience in developing, testing, and deploying data pipelines and ETL processes using Spark, SQL, Python, and various data engineering tools and frameworks.
-- **Cloud Platforms**: Skilled in designing and building data lakehouse architectures and solutions on AWS, and Azure.
+- **Cloud Platforms**: Skilled in developing data lakehouse, data mart, and data warehousing solutions on AWS, and Azure.
 - **Web Data Extraction**: Proficient in extracting, transforming, and loading web data from sources like Google Analytics, Google Ads, and Facebook Ads using APIs, web scraping, and other methods.
 - **Optimization & Monitoring**: Adept at optimizing and monitoring the performance, reliability, and quality of data lakehouse architecture and solutions.
 
@@ -20,24 +20,31 @@ I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer w
 - **Role**: Data Engineer Intern
 - **Company**: Outset Medical Inc., United States
 - **Highlights**:
-  - Resolved critical PySpark Glue job issues, reducing failure rate by 20%.
-  - Enhanced QuickSight dashboard for a 30% faster response by optimizing PostgreSQL queries.
-  - Automated status updates using AWS SNS, Lambda, and Step Functions, saving an average of 2 hours weekly.
-  - Initiated an ETL migration pilot using MWAA (Airflow) and Docker, resulting in a 25% faster data migration process.
+  -	Resolved 50 critical PySpark Glue job issues through proactive technical analysis, reducing failure rate by 80%
+  -	Enhanced data retrieval processes for 10 QuickSight dashboards, by applying analytics techniques to optimize PostgreSQL queries and views, reducing the processing time to 3 hours
+  -	Automated SNS status updates using Lambda, ensuring timely incident resolution, and saving 4 hours weekly
+  -	Parameterized CDK-friendly Python Glue scripts, promoting code reusability, reducing 5 developer hours
+  -	Improved onboarding efficiency by creating detailed documentation, cutting onboarding time by 1 week
+
 
 ### Azure Data Mart Pilot- Retail Data Warehouse
 
 - **Role**: Senior Data Engineer
 - **Company**: Mindtree Ltd., India
 - **Highlights**:
-  - Developed a retail data warehouse covering 46+ data sources over 15+ entities, reducing daily run time from 8 to 3.5 hours.
-  - Optimized data pipeline performance by improvising multiple stored procedures, eliminating redundancies and parallel processing.
-  - Investigated and implemented an optimized solution for handling XML data, reducing pipeline runtime by 56%.
-  - Led SCRUM calls, maintaining a well-organized Jira and Azure DevOps Agile board.
+  -	Developed a centralized ETL pipeline for retail dataset covering 46+ data sources over 15+ entities in a span of 6 months facilitating cross-functional collaboration and ensuring data consistency
+  -	Performed data cleaning, validation, metadata management in SQL Server, and archival in Azure Data Lake adhering to data governance policies
+  -	Reduced daily run time from 8 to 3.5 hours through parameterizing ADF and SSIS dynamic pipelines
+  -	Revamped STAR schema and SSIS workflow design to address business challenges in an e-commerce data warehouse, enhancing operational efficiency leading to a 2.5-hour reduction in average run time
+  -	Collaborated with QA team, data scientists, and project managers to create data models and mapping for seamless integration of 3 new entities, with existing architecture 
+  -	Pioneered an optimized solution for XML files using ADF Data Flows, minimizing dependencies on MS SQL stored procedures, enabling parallel processing, and improving scalability by 10x
+  -	Deployed production code using CI/CD through Azure DevOps, streamlining releases and version control
+  -	Presented weekly updates to the customer regarding the health of the solution and further development insights, demonstrating a commitment to effective communication towards non-technical stakeholders
+
  
 ## Academic Experience | University of Arizona
 
-### Metadata Catalog Information System
+### BNAD 597A: Metadata Catalog Information System
 - **Role**: Eller Business Consultant
 - **Company**: Blue Cross Blue Shield of Arizona, United States
 - **Highlights**:
@@ -80,9 +87,10 @@ I'm Balasubramanian Viswanathan, a passionate and results-driven Data Engineer w
 ## Certifications
 
 - Introduction to Data Science using Python – University of Michigan (Coursera)
+- Python for Data Science - IBM
 
 ## Activities
-- Vedic Astrologer, Chess Player, Cricket Player, Avid Learner, Explorer of World History and Civilizations
+- Chess Player, Cricket Player, Avid Learner, Explorer of World History and Civilizations
 
 ## Let's Connect
 
