@@ -1,99 +1,53 @@
-# Balasubramanian Viswanathan
+# Bala Viswanathan
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/balavis/) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://balavis.mydurable.com/)
+**Analytics Engineer** — I build the models, pipelines and ML that finance and operations teams actually run on.
 
-## Introduction 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-balavis-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/balavis/)
 
-I'm Balasubramanian Viswanathan, an experienced results-driven Data Engineer with over 4 years of expertise in ETL, Data Warehousing, Database Management, and Business Intelligence solutions, specializing in  AWS and Azure Cloud Data Engineering Tech Stack. I have a proven ability in proactive incident resolution, in reducing costs and improving efficiency, scalability, and performance. I am currently seeking an opportunity to leverage my skills in building robust data solutions and fostering strong relationships.
+Working with data since 2019, across data engineering, BI and applied ML. Currently at **Safe Streets USA**, on the Data Engineering team: dbt + Snowflake models, git-based workflows, and Claude Code / Claude skills for automation.
 
-## Expertise
+---
 
-- **Data Engineering**: Proven experience in developing, testing, and deploying data pipelines and ETL processes using Spark, SQL, Python, and various data engineering tools and frameworks.
-- **Cloud Platforms**: Skilled in developing data lakehouse, data mart, and data warehousing solutions on AWS, and Azure.
-- **Web Data Extraction**: Proficient in extracting, transforming, and loading web data from sources like Google Analytics, Google Ads, and Facebook Ads using APIs, web scraping, and other methods.
-- **Optimization & Monitoring**: Adept at optimizing and monitoring the performance, reliability, and quality of data lakehouse architecture and solutions.
+## Featured project
 
-## Experience
+### [olist-analytics-dbt](https://github.com/balasubramanianvusa22/olist-analytics-dbt) — *in progress*
+An end-to-end dbt project on the Brazilian Olist e-commerce dataset, running on DuckDB.
+Sources → staging → marts, with tests and documentation, built the way I'd build it at work.
 
-### Take-home haemodialysis equipment Dashboard
+---
 
-- **Role**: Data Engineer Intern
-- **Company**: Outset Medical Inc., United States
-- **Highlights**:
-  -	Resolved 50 critical PySpark Glue job issues through proactive technical analysis, reducing failure rate by 80%
-  -	Enhanced data retrieval processes for 10 QuickSight dashboards, by applying analytics techniques to optimize PostgreSQL queries and views, reducing the processing time to 3 hours
-  -	Automated SNS status updates using Lambda, ensuring timely incident resolution, and saving 4 hours weekly
-  -	Parameterized CDK-friendly Python Glue scripts, promoting code reusability, reducing 5 developer hours
-  -	Improved onboarding efficiency by creating detailed documentation, cutting onboarding time by 1 week
+## Selected work
 
+**Delinquency cure-probability model** — Safe Streets USA
+Predicts which past-due accounts will cure, by aging bucket (31–60, 61–90, 91–120 days). Compared tree models; XGBoost/LightGBM performed best (AUC ≈ 0.87 on 31–60). Scores map to outreach tiers for the Revenue Retention team. Built in Snowflake notebooks; presented to Finance and Revenue Retention leadership.
 
-### Azure Data Mart Pilot- Retail Data Warehouse
+**Automated commissions engine** — Safe Streets USA
+Turned a biweekly, ~8-hour manual commissions and payables process into a few minutes using Claude skills on top of Snowflake.
 
-- **Role**: Senior Data Engineer
-- **Company**: Mindtree Ltd., India
-- **Highlights**:
-  -	Developed a centralized ETL pipeline for retail dataset covering 46+ data sources over 15+ entities in a span of 6 months facilitating cross-functional collaboration and ensuring data consistency
-  -	Performed data cleaning, validation, metadata management in SQL Server, and archival in Azure Data Lake adhering to data governance policies
-  -	Reduced daily run time from 8 to 3.5 hours through parameterizing ADF and SSIS dynamic pipelines
-  -	Revamped STAR schema and SSIS workflow design to address business challenges in an e-commerce data warehouse, enhancing operational efficiency leading to a 2.5-hour reduction in average run time
-  -	Collaborated with QA team, data scientists, and project managers to create data models and mapping for seamless integration of 3 new entities, with existing architecture 
-  -	Pioneered an optimized solution for XML files using ADF Data Flows, minimizing dependencies on MS SQL stored procedures, enabling parallel processing, and improving scalability by 10x
-  -	Deployed production code using CI/CD through Azure DevOps, streamlining releases and version control
-  -	Presented weekly updates to the customer regarding the health of the solution and further development insights, demonstrating a commitment to effective communication towards non-technical stakeholders
+**Revenue assurance & reporting rebuilds** — Safe Streets USA
+Invoice-aging model across orders, invoices, payments, credits and refunds; helped recover ~$120K from missed collections on at-risk accounts. Rebuilt a 1,580-line legacy chargeback query into two lean, testable queries.
 
- 
-## Academic Experience | University of Arizona
+**Cloud ETL & alerting** — Outset Medical (Analytics Engineer Intern, 2023)
+AWS Glue + Step Functions pipelines, Lambda validation, SNS alerting, and an Athena semantic layer.
 
-### BNAD 597A: Metadata Catalog Information System
-- **Role**: Eller Business Consultant
-- **Company**: Blue Cross Blue Shield of Arizona, United States
-- **Highlights**:
-  - Engineered backend infrastructure for a technical asset catalog, resulting in a 20% reduction in data retrieval time.
-  - Coordinated 1307 development hours via Azure DevOps SCRUM, ensuring on-time project completion.
-  - Enhanced efficiency by implementing indexing, functions, and SQL tactics, reducing query response time by 40%.
+**Retail data warehouse** — LTI Mindtree (Data Engineer, 2019–2022)
+Azure Data Factory, SSIS and SQL Server pipelines for a retail/inventory warehouse processing 1 TB+ batches.
 
-### MIS 304: Using and Managing Information Systems and MIS 587: Business Intelligence
-- **Role**: Graduate Teaching Assistant
-- **Company**: University of Arizona, United States
-- **Highlights**:
-  - Crafted detailed training materials covering essential topics in Excel, Access, SSIS, Tableau, Power BI, and Python.
-  - Utilized Access, SSIS, SQL Server, Tableau, and Power BI in guiding students through the process of database management and ETL (Extract, Transform, Load) operations.
-  - Developed exercises to teach students the art of visual storytelling through Tableau and Power BI, emphasizing data visualization best practices and dashboard creation.
-  - Created hands-on lab sessions on Python programming modules for data analysis, automation, and integration within the Business Intelligence context.
+---
 
-### MIS 587: Big Data Technologies
-- **Role**: Data Engineer
-- **Company**: University of Arizona, United States
-- **Highlights**:
-  - Created a solution for Kaggle’s Instacart Market Basket Analysis using Spark, Pandas, matplotlib, and Scikit-learn.
-  - Utilized Kafka to process Wiki API data for real-time analysis and instant updates in a recommendation platform.
-  
+## Stack
+
+| Area | Tools |
+|---|---|
+| Warehouse & modeling | Snowflake, dbt, SQL Server, PostgreSQL, Athena, DuckDB |
+| Pipelines | Azure Data Factory, SSIS, AWS Glue, Step Functions, Lambda |
+| ML | Python, XGBoost, LightGBM, scikit-learn |
+| BI | Tableau, Power BI |
+| Workflow | Git, Jira, Claude Code |
+
+---
+
 ## Education
-
-- **Master of Science (Management Information Systems)**
-  - University of Arizona | GPA: 3.9/4.0 | Aug 2022 - Dec 2023
-
-- **Bachelors (Electronics and Communication Engr)**
-  - Anna University, India | GPA: 3.3/4.0 | Jun 2015 - Apr 2019
-
-## Skills
-
-- SQL, Python, Spark, Pandas, Java, R
-- AWS Glue, Lambda, Step Functions, S3, QuickSight, AWS CDK
-- Azure Data Factory, Synapse, SSMS, SSIS
-- Git, Kafka, Airflow, CI/CD, DevOps
-- Agile, SCRUM, MS Office, Version Control, Kanban
-
-## Certifications
-
-- Introduction to Data Science using Python – University of Michigan (Coursera)
-- Python for Data Science - IBM
-
-## Activities
-- Chess Player, Cricket Player, Avid Learner, Explorer of World History and Civilizations
-
-## Let's Connect
-
-I'm excited about the possibility of bringing my skills and passion to your team. Let's connect and explore how I can contribute to your next data-driven success!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/balavis/) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://balavis.mydurable.com/)
+**M.S. Management Information Systems** — University of Arizona, Eller College of Management (2023)
+Eller Master's Excellence Award · 3× Dean's List
+**B.E. Electronics and Communication Engineering** — Anna University (2019)
